@@ -31,4 +31,50 @@ body{
   margin-top: 32px;
   background-color: #F15B22;
  color: #FFFFFF;
+ border: 0px;
+ border-radius: 5px;
 }
+
+/* footer section start */
+.footer{
+  display: flex;
+  background-color: #151414;
+  padding: 130px 230px;
+  gap: 330px;
+}
+.footer-header{
+  color: #F8F8F8;
+font-size: 45px;
+font-weight: 700;
+}
+.footer-description{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.footer-head{
+  color: #FFF;
+ font-size: 25px;
+ font-weight: 600;
+}
+.form{
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+border: 1px solid #FFF;
+width: 100%;
+}
+.btn-secondary{
+  margin-top: 15px;
+  border-radius: 8px;
+background: #FFF;
+padding: 20px 35px;
+color: #F15B22;
+font-size: 20px;
+font-weight: 600;
+}
+.anchor{
+  margin-top: 32px;
+}
+
