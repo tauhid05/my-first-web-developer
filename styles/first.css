@@ -62,7 +62,65 @@ body{
   }
   .main1 > ul{
     color: #444343;
-    
+    list-style: none;
+  }
+  .section3{
+    margin: 140px 230px;
+  }
+  .section4{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .icons{
+    margin-top: 0px 90px;
+    display: flex;
+  }
+  .icon > img{
+    margin-right: 90px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .icon > h6{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-right: 100px;
+  }
+  .icon > p{
+    color: #737272;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 16px;
+  }
+  .section5{
+    background-image: url('../images/watch.png');
+    margin: 130px 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .header6{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 59px 617px 24px 64px;
+  }
+  .btn-third{
+    margin-bottom: 59px;
+    margin-left: 64px;
+    border-radius: 5px;
+  background: #FFF;
+  padding: 20px 35px;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
   }
 /* footer section start */
 .footer{
@@ -93,6 +151,8 @@ font-weight: 700;
   border-radius: 8px;
 border: 1px solid #FFF;
 width: 100%;
+background: #151414;
+color: #F3F3F3;
 }
 .btn-secondary{
   margin-top: 15px;
@@ -103,7 +163,8 @@ color: #F15B22;
 font-size: 20px;
 font-weight: 600;
 }
-.anchor{
+.social-links{
   margin-top: 32px;
+  margin-right: 30px;
 }
 
