@@ -1,6 +1,7 @@
 body{
   font-family: "Work Sans", sans-serif;
 }
+/* header part srart */
 .header{
   background-image: url('../images/banner/banner2.png');
   background-repeat: no-repeat;
@@ -34,7 +35,35 @@ body{
  border: 0px;
  border-radius: 5px;
 }
-
+/* main section start */
+  .section1{
+    display: flex;
+    margin-top: 140px;
+    margin-right: 322px;
+    margin-left: 225px;
+  }
+  .section2{
+    margin-right: 90px;
+  }
+  .main1{
+    margin-top: 230px;
+  }
+  .main-header{
+    margin-right: 128px;
+    margin-bottom: 24px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .main-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .main1 > ul{
+    color: #444343;
+    
+  }
 /* footer section start */
 .footer{
   display: flex;
